@@ -1,10 +1,10 @@
 VPATH = src
 CFLAGS = -Wall -Werror -ansi -pedantic
 
-all: rshell
+all: rshell bin
 
-rshell: bin
-	g++ rshell.cpp -o rshell
+rshell: rshell.cpp
+	g++ -o $@ -c $<
 
 bin:
 	mkdir bin
