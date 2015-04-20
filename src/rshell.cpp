@@ -98,6 +98,7 @@ int main()
                 }
                 else
                 {
+                    cout << "$ ";
                     command(argv);
                     /*if(command(argv) == 1)              //here          
                     {
@@ -127,6 +128,7 @@ int main()
                 }
                 else
                 {
+                    cout << "$ ";
                     command(argv);
                     /*if(    )                  //here
                     {
@@ -154,6 +156,7 @@ int main()
                 }
                 else
                 {
+                    cout << "$ ";
                     command(argv);
                     int j;
                     for(j=0; argv[j+i+1] != NULL; ++j)
@@ -173,6 +176,7 @@ int main()
         }
         else 
         {
+            cout << "$ ";
             command(argv);
         }
     }
