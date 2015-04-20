@@ -104,7 +104,6 @@ int main()
                         cout << "wrong" << endl;
                         break;
                     }*/
-                    cout << "AND" << endl;
                     int j;
                     for(j=0; argv[j+i+2] != NULL; ++j)
                     {
@@ -132,7 +131,6 @@ int main()
                     {
                         break;
                     }*/
-                    cout << "OR" << endl;
                     int j;
                     for(j=0; argv[j+i+2] != NULL; ++j)
                     {

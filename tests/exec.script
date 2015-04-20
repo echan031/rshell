@@ -1,0 +1,56 @@
+Script started on Sun 19 Apr 2015 10:05:08 PM PDT
+~
+echan031@hammer $ cd rshell
+~/rshell
+echan031@hammer $ rshell
+ls
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+$ ls -a
+.   bin		 .git	  Makefile   rshell	 src
+..  exec.script  LICENSE  README.md  rshell.cpp  tests
+$ ls -a -l
+total 96
+drwx------  6 echan031 classes  4096 Apr 19 21:59 .
+drwx------ 44 echan031 classes 12288 Apr 19 21:58 ..
+drwx------  2 echan031 classes  4096 Apr 19 21:59 bin
+-rw-------  1 echan031 classes     0 Apr 19 21:59 exec.script
+drwx------  8 echan031 classes  4096 Apr 19 21:56 .git
+-rw-------  1 echan031 classes 18047 Apr 19 21:44 LICENSE
+-rw-------  1 echan031 classes   131 Apr 19 21:44 Makefile
+-rw-------  1 echan031 classes   304 Apr 19 21:44 README.md
+-rwx------  1 echan031 classes 28102 Apr 19 21:59 rshell
+-rw-------  1 echan031 classes  4116 Apr 19 21:55 rshell.cpp
+drwx------  2 echan031 classes  4096 Apr 19 21:44 src
+drwxr-xr-x  2 echan031 classes  4096 Apr 19 21:45 tests
+$ ls; pwd; echo hello there     world my name is
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+/class/classes/echan031/rshell
+hello world my name is
+$ ls  p ls -a;echo         hello     world        ;         pwd; ls ;    ls
+.   bin		 .git	  Makefile   rshell	 src
+..  exec.script  LICENSE  README.md  rshell.cpp  tests
+hello world
+/class/classes/echan031/rshell
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+$ echo the weather is very nice;     ls;   pwd         #this is a test
+the weather is very nice
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+/class/classes/echan031/rshell
+$ ls && pwd
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+/class/classes/echan031/rshell
+$ ls hello || pwd
+ls: cannot access hello: No such file or directory
+/class/classes/echan031/rshell
+$ ls; pwd && echo hi there || ls #this is boring
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+/class/classes/echan031/rshell
+hi there
+bin  exec.script  LICENSE  Makefile  README.md	rshell	rshell.cpp  src  tests
+$ exit
+~/rshell
+echan031@hammer $ exit
+exit
+
+Script done on Sun 19 Apr 2015 10:07:53 PM PDT
