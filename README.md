@@ -4,7 +4,7 @@ rshell runs a command shell that executes commands that are located in the bin d
 ## installation
 `$ git clone https://github.com/echan031/rshell.git`
 `$ cd rshell`
-`$ git checkout hw0`
+`$ git checkout hw1`
 `$ make`
 
 ## bugs
