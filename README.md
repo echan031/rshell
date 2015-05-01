@@ -10,3 +10,6 @@ rshell runs a command shell that executes commands that are located in the bin d
 ## bugs
 connector && executes the same way as ;\n
 connector || executes the same way as ;
+ls -R does not work correctly;
+ls does not sort output alphanumerically;
+ls arguments do not work correctly together;
